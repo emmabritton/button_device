@@ -8,25 +8,25 @@ The device communicates over the serial port/micro USB. It has three LEDS: green
 
 ## Photos
 
-Circuit board (Front)
+Circuit board (Front + Back)
 
 [<img src="media/circuit_board_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_front.jpg)
 [<img src="media/circuit_board_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_back.jpg)
 
 
-Circuit board (Back)
-
 Board Cover
 
 [<img src="media/circuit_board_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_back.jpg)
 
-Circuit board + Cover (Front)
+Circuit board + Cover (Front + Side)
 
-Circuit board + Cover (Side)
+[<img src="media/circuit_covered_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_covered_front.jpg)
+[<img src="media/circuit_covered_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_covered_back.jpg)
 
-Mount (Front)
+Mount (Front + Side)
 
-Mount (Side)
+[<img src="media/mount_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/mount_front.jpg)
+[<img src="media/mount_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/mount_back.jpg)
 
 Fully assembled
 
@@ -45,3 +45,10 @@ Fully assembled
 When a button is pressed, the corresponding square lights up in the demo program
 
 [<img src="media/ss_button.png" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_button.png)
+
+## Test Program
+
+This can be used to check the device is assembled correctly.
+
+The buttons (four squares at the bottom) light up when the corresponding physical button is pressed. Click the LEDs to set the state of the physical LED. Type printable characters and space to set text, backspace to remove the last letter.
+
