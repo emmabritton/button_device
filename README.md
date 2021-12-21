@@ -34,7 +34,7 @@ Fully assembled
 
 * Device *
 
-<img src="media/demo_hw.jpg" width="1024" height="768">
+[<img src="media/demo_hw.jpg" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_front.jpg)
 
 * Test Program *
 
