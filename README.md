@@ -10,11 +10,11 @@ The device communicates over the serial port/micro USB.
 
 Circuit board (Front)
 
-<img src="media/circuit_board_front.jpg" width="1024" height="768">
+[<img src="media/circuit_board_front.jpg" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_front.jpg)
 
 Circuit board (Back)
 
-<img src="media/circuit_board_back.jpg" width="1024" height="768">
+[<img src="media/circuit_board_back.jpg" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_back.jpg)
 
 Board Cover
 
@@ -32,11 +32,11 @@ Fully assembled
 
 ### Hello World Example 
 
-* Device *
+**Device**
 
-[<img src="media/demo_hw.jpg" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_front.jpg)
+[<img src="media/demo_hw.jpg" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/demo_hw.jpg)
 
-* Test Program *
+**Test Program**
 
-<img src="media/ss_hw.jpg" width="1024" height="768">
+[<img src="media/ss_hw.jpg" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_hw.jpg)
 
