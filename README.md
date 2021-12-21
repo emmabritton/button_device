@@ -26,7 +26,7 @@ Circuit board + Cover (Front + Side)
 Mount (Front + Side)
 
 [<img src="media/mount_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/mount_front.jpg)
-[<img src="media/mount_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/mount_back.jpg)
+[<img src="media/mount_side.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/mount_side.jpg)
 
 Fully assembled
 
@@ -42,9 +42,6 @@ Fully assembled
 
 [<img src="media/ss_hw.png" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_hw.png)
 
-When a button is pressed, the corresponding square lights up in the demo program
-
-[<img src="media/ss_button.png" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_button.png)
 
 ## Test Program
 
