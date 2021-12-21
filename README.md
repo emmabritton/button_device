@@ -4,7 +4,7 @@ This project consists of a Rust library, 2 Rust desktop programs, circuit schema
 
 ## Technical details
 
-The device communicates over the serial port/micro USB.
+The device communicates over the serial port/micro USB. It has three LEDS: green, blue and red; the blue LED is less bright than the other two. The display is 4x21 characters.
 
 ## Photos
 
