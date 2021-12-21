@@ -30,6 +30,8 @@ Mount (Front + Side)
 
 Fully assembled
 
+[<img src="media/assembled.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/assembled.jpg)
+
 (Both the cover and mount are damaged as they didn't print correctly, but the models should be correctly sized)
 
 ### Hello World Example 
