@@ -38,5 +38,8 @@ Fully assembled
 
 **Test Program**
 
-[<img src="media/ss_hw.jpg" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_hw.jpg)
+[<img src="media/ss_hw.png" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_hw.png)
 
+When a button is pressed, the corresponding square lights up in the demo program
+
+[<img src="media/ss_button.png" width="512" height="384">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_button.png)
