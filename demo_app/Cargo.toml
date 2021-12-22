@@ -1,0 +1,13 @@
+[package]
+name = "button_board_demo"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ray Britton <raybritton@pm.me>"]
+description = "Demo/test app for checking hardware"
+
+[dependencies]
+anyhow = "1.0.51"
+graphics-lib = { git = "https://github.com/raybritton/rust-graphics-lib"}
+comm_lib = {path = "../comm_lib"}
+winit = "0.25"
+winit_input_helper = "0.10"
