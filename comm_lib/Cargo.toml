@@ -1,0 +1,16 @@
+[package]
+name = "comm_lib"
+version = "0.1.0"
+edition = "2021"
+description = "Library used to update text and LEDS and receive button presses"
+authors = ["Ray Britton <raybritton@pm.me>"]
+categories = ["hardware-support"]
+keywords = ["serialport","hardware"]
+repository = "https://github.com/raybritton/button_device"
+license-file = "../LICENSE"
+publish = false
+readme = "../README.md"
+
+[dependencies]
+serialport = "4.0.1"
+thiserror = "1.0.30"
