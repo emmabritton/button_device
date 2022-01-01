@@ -1,22 +1,22 @@
-use graphics_lib::color::{BLACK, Color, GREEN, RED, WHITE};
-use graphics_lib::setup;
 use winit::event::{Event, VirtualKeyCode};
 use winit::event_loop::{ControlFlow, EventLoop};
 use winit_input_helper::{TextChar, WinitInputHelper};
 use anyhow::Result;
 use comm_lib::get_best_match_device;
 use comm_lib::manager::{DeviceManager, Update};
-use graphics_lib::math::URect;
-use graphics_lib::math::contains::Contains;
-use graphics_lib::text::TextSize;
+use pixels_graphics_lib::color::*;
+use pixels_graphics_lib::math::contains::Contains;
+use pixels_graphics_lib::math::Rect;
+use pixels_graphics_lib::setup;
+use pixels_graphics_lib::text::TextSize;
 
-const LED_START: (usize, usize) = (15, 15);
-const LED_SPACING: usize = 12;
-const LED_SIZE: usize = 8;
-const BUTTON_START: (usize, usize) = (10, 110);
-const BUTTON_SPACING: usize = 20;
-const BUTTON_WIDTH: usize = 40;
-const SCREEN: URect = URect::new(90, 10, 210, 50);
+const LED_START: (isize, isize) = (15, 15);
+const LED_SPACING: isize = 12;
+const LED_SIZE: isize = 8;
+const BUTTON_START: (isize, isize) = (10, 110);
+const BUTTON_SPACING: isize = 20;
+const BUTTON_WIDTH: isize = 40;
+const SCREEN: Rect = Rect::new(90, 10, 210, 50);
 const CURSOR_MAX: usize = 84;
 const BLANK: u8 = 32;
 
@@ -29,10 +29,10 @@ fn main() -> Result<()> {
 
 
 const BOARD_GREEN: Color = Color::rgb(30, 60, 44);
-const LED_BOX: [URect; 3] = [
-    URect::new(LED_START.0 - LED_SIZE, LED_START.1 - LED_SIZE, LED_START.0 + LED_SIZE, LED_START.1 + LED_SIZE),
-    URect::new(LED_START.0 - LED_SIZE, LED_START.1 + LED_SPACING, LED_START.0 + LED_SIZE, LED_START.1 + LED_SIZE + LED_SIZE + LED_SPACING),
-    URect::new(LED_START.0 - LED_SIZE, LED_START.1 + LED_SIZE + LED_SPACING + LED_SPACING, LED_START.0 + LED_SIZE, LED_START.1 + LED_SIZE + LED_SIZE + LED_SPACING + LED_SIZE + LED_SPACING),
+const LED_BOX: [Rect; 3] = [
+    Rect::new(LED_START.0 - LED_SIZE, LED_START.1 - LED_SIZE, LED_START.0 + LED_SIZE, LED_START.1 + LED_SIZE),
+    Rect::new(LED_START.0 - LED_SIZE, LED_START.1 + LED_SPACING, LED_START.0 + LED_SIZE, LED_START.1 + LED_SIZE + LED_SIZE + LED_SPACING),
+    Rect::new(LED_START.0 - LED_SIZE, LED_START.1 + LED_SIZE + LED_SPACING + LED_SPACING, LED_START.0 + LED_SIZE, LED_START.1 + LED_SIZE + LED_SIZE + LED_SPACING + LED_SIZE + LED_SPACING),
 ];
 
 fn run(mut manager: DeviceManager) -> Result<()> {
@@ -64,7 +64,7 @@ fn run(mut manager: DeviceManager) -> Result<()> {
         }
 
         for (i, button) in manager.get_button_state().iter().enumerate() {
-            let x = BUTTON_START.0 + (i * (BUTTON_SPACING + BUTTON_WIDTH));
+            let x = BUTTON_START.0 + (i as isize * (BUTTON_SPACING + BUTTON_WIDTH));
             let y = BUTTON_START.1;
 
             if *button {
@@ -76,7 +76,7 @@ fn run(mut manager: DeviceManager) -> Result<()> {
 
         for (i, led) in leds.iter().enumerate() {
             let x = LED_START.0;
-            let y = LED_START.1 + (i * (LED_SPACING + LED_SIZE));
+            let y = LED_START.1 + (i as isize * (LED_SPACING + LED_SIZE));
 
             if *led {
                 graphics.draw_circle_filled(x, y, LED_SIZE, led_colors[i]);

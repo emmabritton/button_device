@@ -7,7 +7,7 @@ description = "Demo/test app for checking hardware"
 
 [dependencies]
 anyhow = "1.0.51"
-graphics-lib = { git = "https://github.com/raybritton/rust-graphics-lib"}
 comm_lib = {path = "../comm_lib"}
+pixels-graphics-lib = "0.2.0"
 winit = "0.25"
 winit_input_helper = "0.10"
