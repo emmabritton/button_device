@@ -1,0 +1,1 @@
+osascript -e 'tell application "Chrome" to keystroke "t" using {command down}'

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "freq_amount": 2,
+    "freq_unit": "seconds",
+    "script": "samples/display.sh"
+  },
+  "leds": {
+  	"green": {
+      "freq_amount": 20,
+      "freq_unit": "seconds",
+      "script": "samples/random_result.sh"
+    },
+    "red": {
+      "freq_amount": 1,
+      "freq_unit": "seconds",
+      "script": "samples/random_result.sh"
+    },
+    "blue": {
+      "freq_amount": 10,
+      "freq_unit": "seconds",
+      "script": "samples/random_result.sh"
+    }
+  },
+  "buttons": [
+  	{
+  		"script": "samples/button_0.sh"
+  	}
+  ]
+}
