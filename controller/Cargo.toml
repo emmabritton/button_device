@@ -2,7 +2,7 @@
 name = "controller"
 version = "0.1.0"
 edition = "2021"
-authors = ["Ray Britton <raybritton@pm.me"]
+authors = ["Emma Britton <emmabritton@pm.me"]
 description = "Controller program for the button device"
 categories = ["hardware-support"]
 keywords = ["serialport", "hardware"]

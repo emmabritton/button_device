@@ -2,7 +2,7 @@
 name = "button_board_demo"
 version = "0.1.0"
 edition = "2021"
-authors = ["Ray Britton <raybritton@pm.me>"]
+authors = ["Emma Britton <emmabritton@pm.me>"]
 description = "Demo/test app for checking hardware"
 
 [dependencies]

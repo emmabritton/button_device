@@ -10,27 +10,27 @@ The device communicates over the serial port/micro USB. It has three LEDS: green
 
 Circuit board (Front + Back)
 
-[<img src="media/circuit_board_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_front.jpg)
-[<img src="media/circuit_board_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_back.jpg)
+[<img src="media/circuit_board_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/circuit_board_front.jpg)
+[<img src="media/circuit_board_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/circuit_board_back.jpg)
 
 
 Board Cover
 
-[<img src="media/circuit_board_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_board_back.jpg)
+[<img src="media/circuit_board_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/circuit_board_back.jpg)
 
 Circuit board + Cover (Front + Side)
 
-[<img src="media/circuit_covered_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_covered_front.jpg)
-[<img src="media/circuit_covered_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/circuit_covered_back.jpg)
+[<img src="media/circuit_covered_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/circuit_covered_front.jpg)
+[<img src="media/circuit_covered_back.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/circuit_covered_back.jpg)
 
 Mount (Front + Side)
 
-[<img src="media/mount_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/mount_front.jpg)
-[<img src="media/mount_side.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/mount_side.jpg)
+[<img src="media/mount_front.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/mount_front.jpg)
+[<img src="media/mount_side.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/mount_side.jpg)
 
 Fully assembled
 
-[<img src="media/assembled.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/assembled.jpg)
+[<img src="media/assembled.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/assembled.jpg)
 
 (Both the cover and mount are damaged as they didn't print correctly, but the models should be correctly sized)
 
@@ -38,11 +38,11 @@ Fully assembled
 
 **Device**
 
-[<img src="media/demo_hw.jpg" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/demo_hw.jpg)
+[<img src="media/demo_hw.jpg" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/demo_hw.jpg)
 
 **Test Program**
 
-[<img src="media/ss_hw.png" width="256" height="192">](https://raw.githubusercontent.com/raybritton/button_device/master/media/ss_hw.png)
+[<img src="media/ss_hw.png" width="256" height="192">](https://raw.githubusercontent.com/emmabritton/button_device/master/media/ss_hw.png)
 
 
 ## Test Program
